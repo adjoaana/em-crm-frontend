@@ -2,21 +2,21 @@ import React from "react";
 import { Button, Container, Col, Row } from "react-bootstrap";
 import { TicketTable } from "../../components/ticket-table/TicketTable";
 import tickets from "../../assets/data/dummy-tickets.json";
-import { Breadcrumbs } from "../../components/breadcrumbs/Breadcrumbs";
+import { PageBreadcrumbs } from "../../components/breadcrumbs/PageBreadcrumbs";
 
 export const Dashboard = () => {
   return (
     <Container>
       <Row>
         <Col>
-          <Breadcrumbs page="Dashboard"></Breadcrumbs>
+          <PageBreadcrumbs page="Dashboard"></PageBreadcrumbs>
         </Col>
       </Row>
       <Row>
         <Col>
           <Button
             variant="info"
-            style={{ fontSize: "2rem", padding: "1rem 2rem", margin: "3rem" }}
+            style={{ fontSize: "2rem", padding: "10px 30px", margin: "1rem" }}
           >
             Add New Ticket
           </Button>

@@ -6,7 +6,7 @@ export const Header = () => {
   return (
     <Navbar collapseOnSelect variant="dark" bg="info" expand="md">
       <Navbar.Brand>
-        <img src={logo} alt="headerLogo" width="100px" />
+        <img src={logo} alt="headerLogo" width="50px" />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav"></Navbar.Toggle>
       <Navbar.Collapse id="basic-navbar-nav">

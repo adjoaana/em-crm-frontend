@@ -1,0 +1,17 @@
+.add-new-ticket{
+    max-width: 550px;
+    margin: 0 auto;
+    background: whitesmoke;
+    padding: 2rem;
+}
+.add-new-ticket h1{
+     text-align: center;
+
+ }
+ .add-new-ticket input{
+    margin-bottom: 1rem;
+}
+ .add-new-ticket button{
+    width: 100%;
+    margin: 1rem auto;
+ }
