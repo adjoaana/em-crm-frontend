@@ -3,7 +3,24 @@
     "id": 1,
     "subject": "Issue with the ssl certificate",
     "status": "Client response pending",
-    "addedAt": "2020-09-23"
+    "addedAt": "2020-09-23",
+    "history":[
+        {
+            "date": "22-11-13",
+            "message": "gh",
+            "messageBy":"client"
+        },
+        {
+            "date": "22-11-13",
+            "message": "gh",
+            "messageBy":"operator"
+        },
+        {
+            "date": "22-11-13",
+            "message": "gh",
+            "messageBy":"client"
+        }
+    ]
     },
     {
     "id": 2,
@@ -33,7 +50,24 @@
     "id": 6,
     "subject": "Email certificate: expired",
     "status": "Client response pending",
-    "addedAt": "2020-09-23"
+    "addedAt": "2020-09-23",
+    "history":[
+        {
+            "date": "22-11-13",
+            "message": "gh",
+            "messageBy":"client"
+        },
+        {
+            "date": "22-11-13",
+            "message": "gh",
+            "messageBy":"operator"
+        },
+        {
+            "date": "22-11-13",
+            "message": "gh",
+            "messageBy":"client"
+        }
+    ]
     },
     {
     "id": 7,
